@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the National Gallery</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./img">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 스와이퍼 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/javascript.js"></script>
+</head>
+<body> 
+    <div id="wrap">
+
+        <!-- main_page -->
+        <section class="main_page section">
+            <div class="container_m">
+                <div class="banner-section">
+                    <div class="banner_l main_pic">
+                        <!-- main_pic -->
+                        <div class="main_pic1">
+                            <img src="./img/sunflower.jpg" alt="gogh">
+                        </div>
+                        <div class="main_pic2">
+                            <img src="./img/Motherhood (La Maternité).jpg" alt="picasso">
+                        </div>
+                        <div class="main_pic3">
+                            <img src="./img/Snow_Scene_at_Argenteuil.jpg" alt="monet">
+                        </div>
+                        <button class="auto_move"></button>
+                    </div>
+
+                      
+                    <div class="banner_r">
+                        <!-- main_artist -->
+                        <div class="cont">
+                            <div class="main_art">
+                                <a class="artist" href="#none">
+                                    <img src="./img/Gogh.jpg" alt="">
+                                </a>
+                                <p class="artist-name">Vincent Willem van Gogh was born on 30 March 1853 in Groot-Zundert,
+                                    in the predominantly Catholic province of North Brabant in the Netherlands.
+                                </p>
+                                <div class="read_more">
+                                    <a href="#none">Read more
+                                        <button class="read_button"><svg id="arrow_right_alt_black_24dp" xmlns="http://www.w3.org/2000/svg" width="42.725" height="24" viewBox="0 0 42.725 24">
+                                            <path id="패스_1" data-name="패스 1" d="M0,0H42.725V24H0Z" fill="none"/>
+                                            <path id="패스_2" data-name="패스 2" d="M30.066,11H4v2H30.066v3l8.66-4-8.66-4Z"/>
+                                          </svg>
+                                          </button>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <!-- menu -->
+                            <nav>
+                                <ul class="menu menu_wrap">
+                                    <li>
+                                        <a href="#none">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Visit us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Exhibitions and events</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Art and artists</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Learning</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Research</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Membership</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Support us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">Shop</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div id="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+
+                        </div>
+
+                        
+
+                        <!-- Main_footer -->
+                        <h1 class="banner-head">The National Gallery</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Exhibition -->
+        <section class="Exhibitions section">
+            <div class="container swiper mySwiper">
+                <!-- title -->
+                <div class="sub-header-box">
+                    <div class="sub-header">Exhibitions</div>
+                    <div class="arrow-btn">
+                        <button class="left swiper-button-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="103.402" height="14.778" viewBox="0 0 103.402 14.778">
+                                <path id="패스_2" data-name="패스 2" d="M-19.26,13.542H68.146v3.694H-19.26v5.542l-16-7.389L-19.26,8Z" transform="translate(35.256 -8)"/>
+                              </svg>                              
+                        </button>
+                        <button class="right swiper-button-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="103.402" height="14.778" viewBox="0 0 103.402 14.778">
+                                <path id="패스_2" data-name="패스 2" d="M52.149,13.542H-35.256v3.694H52.149v5.542l16-7.389L52.149,8Z" transform="translate(35.256 -8)"/>
+                              </svg>                              
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tap-slider swiper-wrapper ">
+                    <div class="exhibiton_l swiper-slide container">
+
+                        <!-- picture -->
+                        <div class="exhibition">
+                            <a href="#none" class="winslow">
+                                <img src="./img/winslow_homer_pressrelease.jpg" alt="">
+                            </a>
+                        </div>
+                        <!-- explanation -->
+                        <div class="explanation">
+                            <!-- #tage -->
+                            <h3 class="ex_name">#Ground Floor Galleries</h3>
+
+                            <!-- Exhibition Name -->
+                            <h2>Winslow Homer: Force of Nature</h2>
+
+                            <!-- explanation -->
+                            <p class="ex">
+                                For the first time in the UK, we present an overview
+                                of Winslow Homer (1836–1910), the great American
+                                Realist painter who confronted the leading issues 
+                                facing the United States, and its relationship with both
+                                Europe and the Caribbean world, in the final decades 
+                                of the 19th century.
+                            </p>
+
+                            <div class="read_more">
+                                <a href="#none">Read More
+                                    <button class="read_button"><svg id="arrow_right_alt_black_24dp" xmlns="http://www.w3.org/2000/svg" width="42.725" height="24" viewBox="0 0 42.725 24">
+                                        <path id="패스_1" data-name="패스 1" d="M0,0H42.725V24H0Z" fill="none"/>
+                                        <path id="패스_2" data-name="패스 2" d="M30.066,11H4v2H30.066v3l8.66-4-8.66-4Z"/>
+                                      </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="exhibiton_l swiper-slide container">
+                        <!-- picture -->
+                        <div class="exhibition">
+                            <a href="#none" class="turner">
+                                <img src="./img/\Harbour_of_Dieppe_Changement_de_Domicile_1835.webp" alt="">
+                            </a>
+                        </div>
+                        <!-- explanation -->
+                        <div class="explanation">
+                            <!-- #tage -->
+                            <h3 class="ex_name">#Room 46</h3>
+
+                            <!-- Exhibition Name -->
+                            <h2>Turner on Tour</h2>
+
+                            <!-- explanation -->
+                            <p class="ex">
+                                For the first time in a century, two ground-breaking
+                                paintings by Turner are coming home for a special
+                                exhibition. The pair – 'Harbour of Dieppe: Changement 
+                                de Domicile' and 'Cologne, the Arrival of a Packet-Boat:
+                                Evening' – left Britain for New York in 1914, when they 
+                                were acquired by the American industrialist Henry Clay Frick
+                            </p>
+                            <!-- read more -->
+                            <div class="read_more">
+                                <a href="#none">Read More
+                                    <button class="read_button"><svg id="arrow_right_alt_black_24dp" xmlns="http://www.w3.org/2000/svg" width="42.725" height="24" viewBox="0 0 42.725 24">
+                                        <path id="패스_1" data-name="패스 1" d="M0,0H42.725V24H0Z" fill="none"/>
+                                        <path id="패스_2" data-name="패스 2" d="M30.066,11H4v2H30.066v3l8.66-4-8.66-4Z"/>
+                                      </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="exhibiton_l swiper-slide container">
+                        <!-- picture -->
+                        <div class="exhibition">
+                            <a href="#none" class="winter">
+                                <img src="./img/©-Kehinde-Wiley.jpg" alt="">
+                            </a>
+                        </div>
+                        <!-- explanation -->
+                        <div class="explanation">
+                            <!-- #tage -->
+                            <h3 class="ex_name">#Sunley Room</h3>
+
+                            <!-- Exhibition Name -->
+                            <h2>The Prelude</h2>
+
+                            <!-- explanation -->
+                            <p class="ex">
+                                Kehinde Wiley is an American artist best known for his
+                                portraits that render people of colour in the traditional
+                                settings of Old Master paintings. Most famously, in 2017, 
+                                he was commissioned to paint Barack Obama, becoming the
+                                first Black artist to paint an official portrait of a president
+                                of the United States.
+                            </p>
+                            <!-- read more -->
+                            <div class="read_more">
+                                <a href="#none">Read More
+                                    <button class="read_button"><svg id="arrow_right_alt_black_24dp" xmlns="http://www.w3.org/2000/svg" width="42.725" height="24" viewBox="0 0 42.725 24">
+                                        <path id="패스_1" data-name="패스 1" d="M0,0H42.725V24H0Z" fill="none"/>
+                                        <path id="패스_2" data-name="패스 2" d="M30.066,11H4v2H30.066v3l8.66-4-8.66-4Z"/>
+                                      </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <button class="arrow-btn slide-prev">
+                <img src="./img/chevron_left_white_24dp.svg" alt="">
+            </button>
+            <button class="arrow-btn slide-nex">
+                <img src="./img/chevron_right_white_24dp.svg" alt="">
+            </button> -->
+           
+        </section>
+
+        <!-- Collection -->
+        <section class="Collection section">
+            <div class="container">
+                <h2 class="sub-header">Collection highlights</h2>
+                <div class="collection_box">                
+                    <div class="container_c">
+                        <div class="imgs">
+                            <div class="gallery paint1">
+                                <a href="#none" class="painting">
+                                    <img src="./img/Snow_Scene_at_Argenteuil.jpg" alt="Snow_Scene_at_Argenteuil">
+                                </a>
+                            </div>
+                            <div class="gallery paint2">
+                                <a href="#none" class="painting">
+                                    <img src="./img/The Water-Lily Pond.jpg" alt="The_Water_Lily_Pond">
+                                </a>
+                            </div>
+                            <div class="gallery paint3">
+                                <a href="#none" class="painting">
+                                    <img src="./img/le-havre-museum-claude-monet.png" alt="The Museum at Le Havre">
+                                </a>
+                            </div>
+                            <div class="gallery paint4">
+                                <a href="#none" class="painting">
+                                    <img src="./img/Monet_The_Thames_at_Westminster_1871_Westminster.jpg" alt="The Thames below Westminster">
+                                </a>
+                            </div>
+                            <div class="gallery paint5">
+                                <a href="#none" class="painting">
+                                    <img src="./img/Motherhood (La Maternité).jpg" alt="Motherhood (La Maternité)">
+                                </a>
+                            </div>
+                            <div class="gallery paint6">
+                                <a href="#none" class="painting">
+                                    <img src="./img/sunflower.jpg" alt="Sunflower">
+                                </a>
+                            </div>
+                            <div class="gallery paint7">
+                                <a href="#none" class="painting">
+                                    <img src="./img/Bathers at Asnières.jpg" alt="Bathers at Asnières">
+                                </a>
+                            </div>
+                            <div class="gallery paint8">
+                                <a href="#none" class="painting">
+                                    <img src="./img/Van Gogh's Chair.jpg" alt="Van Gogh's Chair">
+                                </a>
+                            </div>
+                            <div class="gallery paint9">
+                                <a href="#none" class="painting">
+                                    <img src="./img/Ballet Dancers.jpg" alt="Ballet Dancers">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Read also -->
+        <section class="Read_also section">
+            <div class="container">
+                <h2 class="sub-header">Read Also</h2>
+                <div class="read_box">
+                    <div class="container_r">              
+                        <div class="r_box Learning">
+                            <a href="#none">
+                                <img src="./img/Learning.jpg" alt="">
+                            </a>
+                            <div class="txt">
+                                <p class="read_name">#Learning</p>
+                                <h2>What is Take One Picture?</h2>
+                                <p class="read_txt">Take One Picture is our national programme for primary
+                                    schools, which aims to inspire a lifelong love of art and
+                                    learning. Every year, we take one picture  from the collec
+                                    -tion to inspire cross-curricular work  in primary class
+                                    -rooms.</p>
+                            </div>
+                        </div>
+                        <div class="r_box Support">
+                            <a href="#none">
+                                <img src="./img/support_us.jpg" alt="">
+                            </a>
+                            <div class="txt">
+                                <p class="read_name">#Support us</p>
+                                <h2>Why we need your support?</h2>
+                                <p class="read_txt">The National Gallery exists to connect people with gre
+                                    -at art. For almost two hundred years we have cared 
+                                    for our collection in trust for the nation and encouraged
+                                    the widest possible access for everyone's education 
+                                    and enjoyment...</p>
+                            </div>
+                        </div>
+                        <div class="r_box Access">
+                            <a href="#none">
+                                <img src="./img/access.jpg" alt="">
+                            </a>
+                            <div class="txt">
+                            <p class="read_name">#Access</p>
+                            <h2>Tickets</h2>
+                            <p class="read_txt">Entry to The National Gallery is currently ticketed. All 
+                                visits must be booked in advance online to help us 
+                                manage the number of people in the Gallery and limit 
+                                queuing.  For visitors with access requirements please
+                                call us on +44 (0)20 7747 2885.
+                                <br>*Entrance to the collection is free.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+    <section class="footer">
+        <div class="footer_top">
+            <div class="footer_t_l">
+                <div class="footer_logo">
+                    <a href="#none">
+                        <img src="./img/National_Gallery_Logo-1536x613.png" alt="">
+                    </a>
+                    <p class="address"><br>Trafalgar Square<br>
+                        <br>London<br>
+                        <br>WC2N 5DN<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer_t_r">
+                <div class="About footer-txt">
+                    <h3>About us</h3>
+                    <p>Contact us</p>
+                    <p>Organisation</p>
+                    <p>Press</p>
+                    <p>Feedback</p>
+                </div>
+                <div class="Commercial footer-txt">
+                    <h3>Commercial</h3>
+                    <p>Shop</p>
+                    <p>Venue hire</p>
+                    <p>Picture library</p>
+                </div>
+                <div class="Work footer-txt">
+                    <h3>Work with us</h3>
+                    <p>The Gallery nationwide</p>
+                    <p>job</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer_bot">
+        <div class="footer_b_l">
+            <p>© 2016–2022 The National Gallery - information@ng-london.org.uk</p>
+            <p>Trafalgar Square London WC2N 5DN +44 20 7747 2885</p>
+        </div>
+
+        <div class="footer_b_r">
+            <p class="newsletter"><br>Sign up to the<br>
+               <br>the National Gallery newsletter:<br>
+            </p>
+
+            <div class="email">
+                <!-- <p>Your email</p> -->
+                <input type="text"placeholder="Your email" class="email_check">
+            </div>
+        </div>
+    </div>
+
+
+
+    </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+html,
+body {
+  font-family: "ArialCE";
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+.arrow {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.arrow:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-left: 2px solid #000;
+  border-top: 2px solid #000;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.arrow:after {
+  content: "";
+  width: 42px;
+  height: 2px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000;
+}
