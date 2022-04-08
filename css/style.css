@@ -136,7 +136,7 @@ body {
 }
 
 .banner-head {
-  font-size: 5.6rem;
+  font-size: 5.3rem;
   color: #f33a3a;
   font-family: "Leitura-Display-Roman";
   letter-spacing: 1px;
@@ -471,14 +471,14 @@ body {
 @media (max-width: 1600px){
 
   .banner-head{
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 }
 
 @media (max-width: 1340px){
 
   .banner-head{
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 }
 
@@ -532,7 +532,7 @@ body {
   }
 
   .banner-head {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     color: #f33a3a;
     font-family: "Leitura-Display-Roman";
     letter-spacing: 1px;
@@ -1002,9 +1002,19 @@ body {
 
 @media (max-width: 530px){
 
+  .main_page .container_m{
+    height: auto;
+  }
+
+
   .banner-head{
     font-size: 2rem;
   }
+
+  .main_pic1{
+    height: 85%;
+  }
+
 
 }
 
