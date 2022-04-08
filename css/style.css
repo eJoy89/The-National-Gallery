@@ -1027,6 +1027,10 @@ body {
 
 @media (max-width: 530px){
 
+  .main_pic1{
+    margin-top: 60px;
+  }
+
   .main_page .container_m{
     height: auto;
   }
