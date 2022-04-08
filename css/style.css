@@ -1014,11 +1014,11 @@ body {
 
 
   .email{
-    padding: 0;
+    padding: 20px 0;
   }
 
   .email_check{
-    width: 50%;
+    width: 70%;
     text-align: center;
   }
 
