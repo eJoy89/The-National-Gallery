@@ -1037,7 +1037,8 @@ body {
 
 
   .banner-head{
-    font-size: 1.7rem;
+    font-size: 2rem;
+    white-space: nowrap;
   }
 
   .main_pic1{
