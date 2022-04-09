@@ -981,6 +981,7 @@ body {
     display: block;
     padding: 20px 40px;
     box-sizing: border-box;
+    margin-left: 2.5%;
   }
   .footer_t_r {
     width: 100%;
