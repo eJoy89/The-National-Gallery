@@ -1052,9 +1052,23 @@ body {
 }
 
 @media (max-width: 400px){
+
+
+  .explanation h2{
+    font-size: 1.2rem;
+  }
+
+  .explanation h3{
+    font-size: 1rem;
+  }
+
+  .explanation p{
+    font-size: 0.9rem;
+  }
+
+
   .sub-header{
-    width: 100%;
-    white-space: nowrap;
+    font-size: 1.6rem;
   }
 
 }
