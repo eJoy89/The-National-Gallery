@@ -1037,25 +1037,6 @@ body {
   }
 
 
-  .banner-head{
-    width: 100%;
-    font-size: 2rem;
-    white-space: nowrap;
-  }
-
-  .main_pic1{
-    height: 85%;
-  }
-
-
-  
-
-}
-
-@media (max-width: 400px){
-
-
-
   .explanation h2{
     font-size: 1.2rem;
   }
@@ -1070,8 +1051,17 @@ body {
 
 
   .sub-header{
+    width: 100%
     font-size: 1.6rem;
     white-space: nowrap;
   }
 
+  .main_pic1{
+    height: 85%;
+  }
+
+
+  
+
 }
+
