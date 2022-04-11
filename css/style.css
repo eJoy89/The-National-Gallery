@@ -1038,6 +1038,7 @@ body {
 
 
   .banner-head{
+    width: 100%;
     font-size: 2rem;
     white-space: nowrap;
   }
@@ -1052,6 +1053,7 @@ body {
 }
 
 @media (max-width: 400px){
+
 
 
   .explanation h2{
@@ -1069,6 +1071,7 @@ body {
 
   .sub-header{
     font-size: 1.6rem;
+    white-space: nowrap;
   }
 
 }
